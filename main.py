@@ -30,9 +30,7 @@ class Assistant:
 
 	def speak(self):
 		
-		with open ".conf" as sentence:
-			
-			text = sentence.read()
+		text = open(".conf", 'r').read()
 		
 		self.talk(text)
 
