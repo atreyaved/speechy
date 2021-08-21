@@ -1,10 +1,10 @@
 echo "downloading files..."
 sleep 1
-sudo apt-get install python3 python3-pip
+sudo apt-get install python3 python3-pip python3-gi
 clear
-sudo dnf install python3 python3-pip
+sudo dnf install python3 python3-pip python3-gi
 clear
-sudo pacman -S python3 python3-pip
+sudo pacman -S python3 python3-pip python3-gi
 clear
 pip3 install -r .requirements.txt
 clear
