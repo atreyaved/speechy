@@ -1,6 +1,6 @@
 import gtts
 
-import playsound2
+import playsound
 
 import os
 
@@ -13,7 +13,6 @@ class Assistant:
 		super(Assistant, self).__init__()
 
 		default_prefs = {"lang": "en"}
-		
 		self.prefs = PREFS.PREFS(default_prefs)
 
 
@@ -23,9 +22,9 @@ class Assistant:
 
 		sound = gtts.gTTS(text, lang=lang)
 
-		sound.save(f'{filename}.{extension}')
+		sound.save(f"{filename}.{extension}")
 
-		playsound2.playsound(f"{filename}.{extension}")
+		playsound.playsound(f"{filename}.{extension}")
 
 		if not save: os.remove(f"{filename}.{extension}")
 
@@ -40,7 +39,6 @@ class Assistant:
 def main():
 
 	assistant = Assistant()
-	
 	assistant.ask()
 
 if __name__ == "__main__":
