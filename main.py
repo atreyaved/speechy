@@ -13,7 +13,7 @@ class Assistant:
 		default_prefs = {"lang": "en"}
 		self.prefs = PREFS.PREFS(default_prefs)
 
-		self.sing()
+		self.speak()
 
 
 	def talk(self, text, save=False, lang=None, filename="temp", extension="mp3"):
