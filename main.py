@@ -2,6 +2,8 @@ import gtts
 
 import playsound2
 
+import os
+
 import PREFS
 
 class Assistant:
@@ -11,9 +13,8 @@ class Assistant:
 		super(Assistant, self).__init__()
 
 		default_prefs = {"lang": "en"}
+		
 		self.prefs = PREFS.PREFS(default_prefs)
-
-		self.speak()
 
 
 	def talk(self, text, save=False, lang=None, filename="temp", extension="mp3"):
@@ -28,15 +29,19 @@ class Assistant:
 
 		if not save: os.remove(f"{filename}.{extension}")
 
-	def speak(self):
+	def ask(self):
 		
-		text = open(".conf", 'r').read()
+		text = open(".conf", 'r')
+		
+		text = text.read()
 		
 		self.talk(text)
 
 def main():
 
 	assistant = Assistant()
+	
+	assistant.ask()
 
 if __name__ == "__main__":
 	
