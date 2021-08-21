@@ -2,3 +2,5 @@ gtts
 playsound
 PREFS
 playsound2
+vext
+vext.gi
