@@ -1,3 +1,4 @@
 gtts
-playsound2
+playsound
 PREFS
+playsound2
