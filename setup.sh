@@ -17,3 +17,6 @@ echo '' >> ~/.bashrc
 echo 'source ~/.local/share/NacreousDawn596/speechy/.speechy.sh' >> ~/.bashrc
 echo '' >> ~/.bashrc
 rm ~/.local/share/NacreousDawn596/speechy/setup.sh
+clear
+echo "done!"
+now you can launch it by writing speechy after reopening the terminal ,enjoy!
