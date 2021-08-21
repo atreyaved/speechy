@@ -11,3 +11,7 @@ chmod u+x setup.sh
 ```
 
 now you can launch it by writing *speechy* after reopening the terminal, enjoy! ☺️
+
+Credits:
+---
+**patitotective**_#0127_ -
