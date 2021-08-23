@@ -6,6 +6,7 @@ a simple text-to-speech made with python
 ```sh
 sudo apt-get install git
 git clone https://github.com/NacreousDawn596/speechy
+cd speechy
 chmod u+x setup.sh
 ./setup.sh
 ```
@@ -14,4 +15,4 @@ now you can launch it by writing *speechy* after reopening the terminal, enjoy! 
 
 Credits:
 ---
-**patitotective**_#0127_ -
+**patitotective _#0127_**
