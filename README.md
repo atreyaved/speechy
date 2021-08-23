@@ -13,6 +13,11 @@ chmod u+x setup.sh
 
 now you can launch it by writing *speechy* after reopening the terminal, enjoy! ☺️
 
+# How to use 
+```
+Run by typing "speechy <"text to say in quotes">"
+```
+
 Credits:
 ---
 **patitotective _#0127_**
